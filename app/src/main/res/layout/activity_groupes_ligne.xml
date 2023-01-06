@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/fond">
+
+    <ImageView
+        android:id="@+id/imageGroupe"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/image_du_groupe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@mipmap/festival_round" />
+
+    <TextView
+        android:id="@+id/textGroupe"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:rotationX="-15"
+        android:text="@string/groupe"
+        android:textColor="@color/texte"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textFavori"
+        app:layout_constraintStart_toEndOf="@+id/imageGroupe"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/lieu"
+        android:textColor="@color/texte"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/textFavori"
+        app:layout_constraintStart_toEndOf="@+id/imageGroupe"
+        app:layout_constraintTop_toBottomOf="@+id/textGroupe" />
+
+    <TextView
+        android:id="@+id/textPassage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/scene"
+        android:textColor="@color/texte"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textFavori"
+        app:layout_constraintStart_toEndOf="@+id/imageGroupe"
+        app:layout_constraintTop_toBottomOf="@+id/textPlace" />
+
+    <TextView
+        android:id="@+id/textFavori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="@string/coeur_brise"
+        android:textAlignment="textEnd"
+        android:textSize="40sp"
+        android:textColor="@color/lightcoral"
+        android:tooltipText="Cliquez pour ajouter à vos favoris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,RtlCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

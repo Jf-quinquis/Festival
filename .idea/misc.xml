@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_artiste.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_favoris.xml" value="0.128419452887538" />
+        <entry key="app/src/main/res/layout/activity_favoris_ligne.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_groupes.xml" value="0.128419452887538" />
+        <entry key="app/src/main/res/layout/activity_groupes_ligne.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_numeros.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_scene_ligne.xml" value="0.1752786220871327" />
+        <entry key="app/src/main/res/layout/activity_scenes.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_scenes_ligne.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_stands.xml" value="0.1405775075987842" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.26481481481481484" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

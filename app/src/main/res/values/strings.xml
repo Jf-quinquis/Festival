@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Festival</string>
+    <string name="horaire">Horaire</string>
+    <string name="favori">★</string>
+    <string name="horloge">🕒</string>
+    <string name="jour">Jour</string>
+    <string name="scene">Scéne</string>
+    <string name="groupe">Groupe ou Artiste</string>
+    <string name="image_du_groupe">Image du groupe</string>
+    <string name="description">Description</string>
+    <string name="site_web">Site web</string>
+    <string name="coeur">♥</string>
+    <string name="coeur_brise">💔</string>
+    <string name="bravo">👏</string>
+    <string name="pouce_up">👍</string>
+    <string name="pouce_down">👎</string>
+    <string name="fete">🎉</string>
+    <string name="participe">♡</string>
+    <string name="lieu">Lieu</string>
+    <string name="title_activity_itineraire">Itineraire</string>
+</resources>

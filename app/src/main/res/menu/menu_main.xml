@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/actionSearch"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/menu_groupes"
+        android:title="Groupes"/>
+
+    <item
+        android:id="@+id/menu_favoris"
+        android:title="Favoris" />
+
+    <item
+        android:id="@+id/menu_scenes"
+        android:title="Scenes" />
+
+    <item
+        android:id="@+id/menu_itineraire"
+        android:title="Itineraire" />
+
+    <item
+        android:id="@+id/menu_numeros"
+        android:title="Numéros utiles" />
+
+    <item
+        android:id="@+id/menu_aide"
+        android:title="Aide" />
+
+</menu>
